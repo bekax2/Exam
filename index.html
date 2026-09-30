@@ -1,0 +1,179 @@
+# Exam
+.
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ҰБТ 140 Балл - Пробный Тест</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; color: #1c1e21; }
+        .container { max-width: 900px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #1877f2; margin-bottom: 10px; }
+        p.subtitle { text-align: center; color: #606770; font-size: 16px; margin-bottom: 30px; }
+        .section-title { background: #e7f3ff; color: #1877f2; padding: 12px 18px; border-radius: 8px; margin-top: 30px; font-size: 20px; font-weight: bold; }
+        .question { background: #fafafa; border: 1px solid #e4e6eb; padding: 18px; border-radius: 8px; margin-top: 15px; }
+        .question p { font-weight: 600; font-size: 16px; margin-top: 0; color: #050505; }
+        .options label { display: block; padding: 8px 12px; margin: 6px 0; background: #fff; border: 1px solid #ced0d4; border-radius: 6px; cursor: pointer; transition: 0.2s; }
+        .options label:hover { background: #e4e6eb; }
+        .options input { margin-right: 10px; }
+        button { display: block; width: 100%; padding: 16px; background: #42b72a; color: white; border: none; font-size: 20px; font-weight: bold; border-radius: 8px; cursor: pointer; margin-top: 30px; transition: 0.2s; }
+        button:hover { background: #36a420; }
+        #result-box { display: none; text-align: center; padding: 25px; background: #e7f3ff; border: 2px solid #1877f2; border-radius: 10px; margin-top: 25px; }
+        #result-box h2 { color: #1877f2; margin: 0 0 10px 0; }
+        #score { font-size: 32px; font-weight: bold; color: #2d88ff; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>ҰБТ Толық Пробный Тесі</h1>
+    <p class="subtitle">Қазақстан тарихы • Оқу сауаттылығы • Матсауаттылық • Математика • Информатика</p>
+
+    <form id="ubtForm">
+
+        <!-- I. ҚАЗАҚСТАН ТАРИХЫ -->
+        <div class="section-title">I. Қазақстан тарихы</div>
+        
+        <div class="question">
+            <p>1. Жылқы алғаш қолға үйретілген Энеолит кезеңінің мәдениеті:</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="A"> A) Андрон</label>
+                <label><input type="radio" name="q1" value="B"> B) Беғазы-Дәндібай</label>
+                <label><input type="radio" name="q1" value="C"> C) Ботай</label>
+                <label><input type="radio" name="q1" value="D"> D) Кельткөл</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. 1969 жылы Есік қорғанынан табылған «Алтын адам» қай дәуірге жатады?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="A"> A) Ғұн</label>
+                <label><input type="radio" name="q2" value="B"> B) Сақ</label>
+                <label><input type="radio" name="q2" value="C"> C) Қаңлы</label>
+                <label><input type="radio" name="q2" value="D"> D) Үйсін</label>
+            </div>
+        </div>
+
+        <!-- II. МАТЕМАТИКАЛЫҚ САУАТТЫЛЫҚ -->
+        <div class="section-title">II. Математикалық сауаттылық</div>
+
+        <div class="question">
+            <p>3. Тауар бағасы $30\%$-ға қымбаттап, кейін қайта $30\%$-ға арзандады. Бастапқы баға қалай өгерді?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="A"> A) Өзгерген жоқ</label>
+                <label><input type="radio" name="q3" value="B"> B) 9%-ға арзандады</label>
+                <label><input type="radio" name="q3" value="C"> C) 9%-ға қымбаттады</label>
+                <label><input type="radio" name="q3" value="D"> D) 6%-ға арзандады</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. Ойын сүйегін (кубик) лақтырғанда жұп сан түсу ықтималдығы:</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="A"> A) 1/6</label>
+                <label><input type="radio" name="q4" value="B"> B) 1/3</label>
+                <label><input type="radio" name="q4" value="C"> C) 1/2</label>
+                <label><input type="radio" name="q4" value="D"> D) 2/3</label>
+            </div>
+        </div>
+
+        <!-- III. МАТЕМАТИКА -->
+        <div class="section-title">III. Математика</div>
+
+        <div class="question">
+            <p>5. Квадраттық теңдеуді шешіңіз: $x^2 - 5x + 6 = 0$</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="A"> A) x = 2; 3</label>
+                <label><input type="radio" name="q5" value="B"> B) x = -2; -3</label>
+                <label><input type="radio" name="q5" value="C"> C) x = 1; 6</label>
+                <label><input type="radio" name="q5" value="D"> D) x = -1; -6</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>6. Функцияның туындысын тап: $f(x) = 3x^2 - 4x + 5$</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="A"> A) 6x - 4</label>
+                <label><input type="radio" name="q6" value="B"> B) 3x - 4</label>
+                <label><input type="radio" name="q6" value="C"> C) 6x² - 4</label>
+                <label><input type="radio" name="q6" value="D"> D) 6x + 5</label>
+            </div>
+        </div>
+
+        <!-- IV. ИНФОРМАТИКА -->
+        <div class="section-title">IV. Информатика</div>
+
+        <div class="question">
+            <p>7. Python: Кодтың нәтижесі не болады?<br><code>a = 23</code><br><code>b = 5</code><br><code>print(a // b + a % b)</code></p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="A"> A) 4</label>
+                <label><input type="radio" name="q7" value="B"> B) 3</label>
+                <label><input type="radio" name="q7" value="C"> C) 7</label>
+                <label><input type="radio" name="q7" value="D"> D) 8</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>8. HTML-де ең үлкен тақырыпты (заголовок) белгілейтін тег:</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="A"> A) &lt;p&gt;</label>
+                <label><input type="radio" name="q8" value="B"> B) &lt;h6&gt;</label>
+                <label><input type="radio" name="q8" value="C"> C) &lt;h1&gt;</label>
+                <label><input type="radio" name="q8" value="D"> D) &lt;head&gt;</label>
+            </div>
+        </div>
+
+        <button type="button" onclick="calculateResult()">Тестті тапсыру</button>
+    </form>
+
+    <div id="result-box">
+        <h2>Нәтижеңіз:</h2>
+        <div id="score">0 / 8</div>
+        <p id="feedback"></p>
+    </div>
+</div>
+
+<script>
+function calculateResult() {
+    const correctAnswers = {
+        q1: "C",
+        q2: "B",
+        q3: "B",
+        q4: "C",
+        q5: "A",
+        q6: "A",
+        q7: "C",
+        q8: "C"
+    };
+
+    let score = 0;
+    let total = Object.keys(correctAnswers).length;
+
+    for (let q in correctAnswers) {
+        let selected = document.querySelector(`input[name="${q}"]:checked`);
+        if (selected && selected.value === correctAnswers[q]) {
+            score++;
+        }
+    }
+
+    document.getElementById("result-box").style.display = "block";
+    document.getElementById("score").innerText = score + " / " + total;
+
+    let percent = (score / total) * 100;
+    let feedback = document.getElementById("feedback");
+
+    if (percent === 100) {
+        feedback.innerText = "Үздік нәтиже! Дайындығың өте жақсы!";
+    } else if (percent >= 60) {
+        feedback.innerText = "Жақсы! Кейбір қателерді қайталап шыққан дұрыс.";
+    } else {
+        feedback.innerText = "Тағы да дайындалу керек. Қателеріңді талдап шық!";
+    }
+
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
